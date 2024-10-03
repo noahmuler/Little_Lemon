@@ -33,4 +33,4 @@ DATABASES = {
     ` python3 manage.py migrate `
 
 4. Run the server (in the folder containing 'manage.py'):
-    // python3 manage.py runserver
+    ` python3 manage.py runserver `
