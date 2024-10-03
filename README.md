@@ -10,7 +10,7 @@
         - for example `cd Little_Lemon/LittleLemon`
     - `pipenv shell` or `python3 pipenv shell`
     - `pipenv install` or if error? `pip install`
-
+---
 
 2. Database configuration (**Found:** Inside Project Level 'settings.py'):
 
@@ -30,13 +30,14 @@ DATABASES = {
     }
 }
 ```
-
+---
 
 3. Then run the following (in the folder containing 'manage.py'):
     - ` python3 manage.py makemigrations `
     - ` python3 manage.py showmigrations `
     - ` python3 manage.py migrate `
-
+---
 
 4. Run the server (in the folder containing 'manage.py'):
     - ` python3 manage.py runserver `
+---
