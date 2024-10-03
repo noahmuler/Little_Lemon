@@ -5,9 +5,9 @@
 ### Before running the server check the following:
 
 1. Run the following commands in the terminal:
-    - Change directory to the project folder using cd. (This folder will contain 'Pipfile' and 'Pipfile.lock')
-    - pipenv shell or python3 pipenv shell
-    - pipenv install or if error? pip install
+    - Change directory to the project folder using cd, like `cd Little_Lemon` (This folder will contain 'Pipfile' and 'Pipfile.lock')
+    - `pipenv shell` or `python3 pipenv shell`
+    - `pipenv install` or if error? `pip install`
 
 
 2. Database configuration (Found: Project Level 'settings.py'):
@@ -28,9 +28,9 @@ DATABASES = {
 }
 ```
 3. Then run the following (in the folder containing 'manage.py'):
-    // python3 manage.py makemigrations
-    // python3 manage.py showmigrations
-    // python3 manage.py migrate
+    ` python3 manage.py makemigrations `
+    ` python3 manage.py showmigrations `
+    ` python3 manage.py migrate `
 
 4. Run the server (in the folder containing 'manage.py'):
     // python3 manage.py runserver
