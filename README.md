@@ -4,6 +4,12 @@
 
 This is a Web Application and REST API built for the Little Lemon Restaurant.
 
+---
+
+**Note:** This project contains two separate applications, one for the GUI(restaurant) and one for the API(restaurantAPI).
+
+---
+
 ### Technologies:
 1. Python
 2. Django
@@ -12,6 +18,8 @@ This is a Web Application and REST API built for the Little Lemon Restaurant.
 5. CSS
 6. JavaScript
 7. MySQL
+
+---
 
 ### Before running the server, check the following:
 
