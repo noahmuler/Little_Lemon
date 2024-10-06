@@ -2,7 +2,18 @@
 
 ## Welcome to the Little Lemon Full Stack Web App
 
-### Before running the server check the following:
+This is a Web Application and REST API built for the Little Lemon Restaurant.
+
+### Technologies used:
+1. Python
+2. Django
+3. DRF (Django Rest Framework)
+4. HTML
+5. CSS
+6. JavaScript
+7. MySQL
+
+### Before running the server, check the following:
 
 1. Run the following commands in the terminal:
     - Change directory to the project folder using cd.
