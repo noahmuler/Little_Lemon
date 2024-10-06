@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&)j@hz_j_2&7@2916_&oxgzjhn%&)-$c(56%c#y#^i)@_1@c=6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -85,7 +85,7 @@ DATABASES = {
         'HOST' : '127.0.0.1',
         'PORT' : '3306',
         'USER' : 'root',                            #   CHANGE USER TO A DIFFERENT USER YOU WISH TO USE
-        'PASSWORD' : 'Bone',                        #   CHANGE THE PASSWORD TO THE USER'S PASSWORD
+        'PASSWORD' : '',                        #   CHANGE THE PASSWORD TO THE USER'S PASSWORD
     }
 }
 

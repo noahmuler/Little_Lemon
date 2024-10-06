@@ -39,5 +39,5 @@ urlpatterns = [
     path('api/', include('restaurantAPI.urls')),
     path('restaurant/menu/', include('restaurantAPI.urls')),
     path('restaurant/booking/', include(router.urls)),
-    #path('api/booking/', views.BookingViewSet.as_view()),
+    path('api/booking/', include(router.urls)),
 ]

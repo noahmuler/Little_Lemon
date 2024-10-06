@@ -52,3 +52,19 @@ DATABASES = {
 4. Run the server (in the folder containing 'manage.py'):
     - ` python3 manage.py runserver `
 ---
+
+### Links (WHILE SERVER IS RUNNING):
+#### GUI
+- Home `http://127.0.0.1:8000/`
+- About `http://127.0.0.1:8000/about/`
+- Menu`http://127.0.0.1:8000/menu/<pk>`
+- Book `http://127.0.0.1:8000/book/`
+- Reservations `http://127.0.0.1:8000/reservations/`
+
+#### API
+- All Menu `http://127.0.0.1:8000/api/menu` or `http://127.0.0.1:8000/api/menu-items`
+- Single Menu `http://127.0.0.1:8000/api/menu/1` or `http://127.0.0.1:8000/api/menu-items/1`
+- Booking `http://127.0.0.1:8000/api/booking/tables/` or `http://127.0.0.1:8000/restaurant/booking/tables/`
+- Auth Token Gen (only POST) `http://127.0.0.1:8000/api/api-token-auth/`
+- Users `http://127.0.0.1:8000/auth/users/`
+- Token Login `http://127.0.0.1:8000/auth/token/login`
