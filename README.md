@@ -42,6 +42,8 @@ DATABASES = {
 }
 ```
 ---
+**Note:** If you add menu data properly (after running server properly), you  will dynamically load static files in the menu page.
+---
 
 3. Then run the following (in the folder containing 'manage.py'):
     - ` python3 manage.py makemigrations `
@@ -68,3 +70,4 @@ DATABASES = {
 - Auth Token Gen (only POST) `http://127.0.0.1:8000/api/api-token-auth/`
 - Users `http://127.0.0.1:8000/auth/users/`
 - Token Login `http://127.0.0.1:8000/auth/token/login`
+---
