@@ -4,7 +4,7 @@
 
 This is a Web Application and REST API built for the Little Lemon Restaurant.
 
-### Technologies used:
+### Technologies:
 1. Python
 2. Django
 3. DRF (Django Rest Framework)
@@ -70,4 +70,5 @@ DATABASES = {
 - Auth Token Gen (only POST) `http://127.0.0.1:8000/api/api-token-auth/`
 - Users `http://127.0.0.1:8000/auth/users/`
 - Token Login `http://127.0.0.1:8000/auth/token/login`
+- Token Logout `http://127.0.0.1:8000/auth/token/logout`
 ---
